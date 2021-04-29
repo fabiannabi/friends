@@ -42,6 +42,16 @@
     </div>
   <%end%>
 <%else%>
-  <header>START ADDING FRIENDS!!</header>
-  <%= link_to "Sign up" ,new_user_registration_path, class:"navbar-brand"%>
+<br>
+<div class="card text-center">
+  <div class="card-header">
+    WELCOME TO THE FRIEND LIST
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">START ADDING NOW!!</h5>
+    <p class="card-text">An electronic agenda were you can have all your contacts</p>
+    <%= link_to "Sign up" ,new_user_registration_path, class:"navbar-brand btn btn-primary" %>
+  </div>
+</div>
+
 <%end%>
